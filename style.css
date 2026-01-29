@@ -1,0 +1,52 @@
+#container {
+	background-color: #ffffff;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: #9ddbe3;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+	font-family: Geneva, Veranda, sans-serif;
+}
+
+#nav {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#nav a:link, a:visited {
+	display: block;
+    background-color: #e8e8e8;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: Geneva, Veranda, sans-serif;
+    padding: 10px;
+}
+
+#nav a:hover, a:active {
+	background-color: #bcbcbc;
+}
+
+#list {
+	font-family: Geneva, Veranda, sans-serif;
+}
+
+.joke {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+}
