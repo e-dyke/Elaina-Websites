@@ -10,11 +10,19 @@ body {
 }
 
 h1 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
+	font-family: "Montserrat", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  }
 
 p {
-	font-family: Geneva, Veranda, sans-serif;
+	font-family: "Noto Serif", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
 }
 
 #nav {
@@ -34,7 +42,7 @@ p {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    font-family: Geneva, Veranda, sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 10px;
 }
 
@@ -43,10 +51,10 @@ p {
 }
 
 #list {
-	font-family: Geneva, Veranda, sans-serif;
+	font-family: "Noto Serif", serif;
 }
 
 .joke {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Noto Serif", serif;
 	font-weight: bold;
 }
