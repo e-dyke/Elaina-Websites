@@ -28,6 +28,7 @@ p {
 #nav {
 	list-style-type: none;
 	padding: 0;
+	background: #e8e8e8;
 }
 
 #nav ul {
@@ -52,9 +53,28 @@ p {
 
 #list {
 	font-family: "Noto Serif", serif;
+	display: flex;
+	flex-flow: column;
 }
 
 .joke {
 	font-family: "Noto Serif", serif;
 	font-weight: bold;
+}
+
+#nav {
+	display: flex;
+	flex-flow: column;
+}
+
+@media (min-width: 800px) {
+	#nav{
+		flex-flow: row;
+		justify-content: flex-end;
+	}
+	#list {
+		flex-flow: row;
+		padding: 1;
+		gap: 30px;
+	}
 }
